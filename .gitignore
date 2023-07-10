@@ -4,4 +4,13 @@
 /src/audio/*
 /src/video/*
 !/src/video/if-we-ever-broke-up--official-music-video.mp4
+!/src/video/if-we-ever-broke-up-juliasiasoco.mp4
+!/src/video/if-we-ever-broke-up-juliasiasoco.ogv
+!/src/video/if-we-ever-broke-up-juliasiasoco.webm
+!/src/video/if-we-ever-broke-up-krazyrai.mp4
+!/src/video/if-we-ever-broke-up-krazyrai.ogv
+!/src/video/if-we-ever-broke-up-krazyrai.webm
+!/src/video/if-we-ever-broke-up-philippinestar.mp4
+!/src/video/if-we-ever-broke-up-philippinestar.ogv
+!/src/video/if-we-ever-broke-up-philippinestar.webm
 /src/index-final.html
