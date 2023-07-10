@@ -3,4 +3,5 @@
 .DS_Store
 /src/audio/*
 /src/video/*
+!/src/video/if-we-ever-broke-up--official-music-video.mp4
 /src/index-final.html
