@@ -1,4 +1,4 @@
-## HTML | Activity #12 (Guided): Video
+## HTML | Activity #13 (Guided): Video
 In this activity, we will create a **Song Review Page** with the following content:
 
 ![final-output](assets/html-13--01-final-output.jpg)
