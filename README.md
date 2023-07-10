@@ -124,3 +124,83 @@ We will leave [comments](https://www.w3schools.com/html/html_comments.asp) for t
 </body>
 </html>
 ```
+
+
+### Defining Video Elements
+To define a video element in HTML, we use the `<video>` tag.
+Inside it, we nest one or more self-closing `<source/>` tags - each has
+`src` attribute that contains the URL or path of the video file with a specified `type`.
+
+Example:
+```html
+<video controls>
+    <source src="video.mp4" type="video/mp4"/>
+    <source src="video.ogg" type="video/ogg"/>
+</video>
+```
+
+<p>
+    <small>
+        <b>NOTE:</b>
+        We use multiple sources with different video file formats
+        to provide options in the event that one format is not supported or available.
+    </small>
+</p>
+
+The `controls` attribute in the video element is needed
+to display the default video controls, such as *play*, *pause*, *volume*, and *full-screen toggle*.
+The video may not show up in the browser if this attribute is missing.
+
+#### Official Music Video
+![official-music-video](assets/html-13--03-official-music-video.jpg)
+
+For the **Official Music Video**, there's only one video source: `mp4`
+```html
+                        ...
+                        
+                        <!-- Official Music Video -->
+                        <video controls width="100%">
+                            <source
+                                src="video/if-we-ever-broke-up--official-music-video.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        
+                        ...
+```
+
+#### TikTok Video 1
+![tiktok-video-1](assets/html-13--04-tiktok-video-1.jpg)
+
+For **TikTok Video 1**, there are three video sources: `mp4`, `ogv`, and `webm`.
+
+```html
+            ...
+            
+            <!-- TikTok Video 1 -->
+            <video controls loop width="200">
+                <source src="video/if-we-ever-broke-up-krazyrai.mp4"  type="video/mp4" />
+                <source src="video/if-we-ever-broke-up-krazyrai.ogv"  type="video/ogg" />
+                <source src="video/if-we-ever-broke-up-krazyrai.webm" type="video/webm" />
+            </video>
+            
+            ...
+```
+
+The `<video>` tag has other attributes such as:
+
+| Attribute  | Description                                                                                                 |
+|------------|-------------------------------------------------------------------------------------------------------------|
+| `autoplay` | Start playing as soon as the video it is ready.                                                             |
+| `loop`     | Start over again, every time the video is finished.                                                         |
+| `poster`   | URL or path of an image to be shown while the video is downloading, or until the user hits the play button. |
+| `width`    | Width of the video player.                                                                                  |
+| `height`   | Height of the video player.                                                                                 |
+
+
+***TODO:***
+Complete all three TikTok Videos.
+
+![todo](assets/html-13--05-todo.jpg)
+
+You can find all the video files inside the [**video**](src/video) folder.
